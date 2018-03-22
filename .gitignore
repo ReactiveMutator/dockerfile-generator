@@ -1,0 +1,11 @@
+.attach*
+.classpath
+.settings/
+.sts4-cache/
+.vscode/
+
+bin/
+target/
+.project
+.classpath
+*.class
