@@ -1,0 +1,13 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.textthunder</groupId>
+  <artifactId>docker-generator</artifactId>
+  <version>0.0.1</version>
+  <packaging>jar</packaging>
+
+  <build>
+    <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+    <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
+    <outputDirectory>${basedir}/target/classes</outputDirectory>
+  </build>
+</project>
