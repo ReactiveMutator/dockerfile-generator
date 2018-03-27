@@ -10,3 +10,4 @@ target/
 .classpath
 *.class
 Dockerfile
+tmp/

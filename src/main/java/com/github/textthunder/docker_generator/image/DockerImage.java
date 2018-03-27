@@ -14,7 +14,11 @@ public class DockerImage {
     if (this.tagName.equals("")) {
       return this.name;
     } else {
-      return this.name.concat(new String(":")).concat(this.tagName);
+      return this.name.concat(
+        new String(":")
+      ).concat(
+        this.tagName
+      );
     }
   }
 }
